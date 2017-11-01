@@ -1,0 +1,298 @@
+/*
+Theme Name: CustomTheme
+Author: Annelet
+Version: 1.0
+*/
+ @import 'css/about_callout.css';
+ @import 'css/article.css';
+ @import 'css/Post_columns.css';
+@import 'css/header.css';
+@import 'css/sidebar.css';
+@import 'css/contact_page.css';
+@import 'css/about_page.css';
+@import 'css/footer.css';
+@import 'css/front_page.css';
+
+
+html {
+	padding: 0;
+	margin: 0;
+    
+}
+
+body {
+    color: #8f8f8f;
+  background: white;
+   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+	
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+ margin: 0;
+}
+
+p.abouttext {
+      width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    letter-spacing: 0;
+    padding: 0.5em 0 1em;
+}
+
+
+
+/* Content Area */
+article.post {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+    width: 65%;
+    margin: 0 auto;
+    
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Aside Styles */
+article.post-aside,
+article.post-link {
+	font-size: 125%;
+	background-color: #FFF5CB;
+	padding: 20px 20px 1px 20px;
+	border-bottom: none;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+}
+
+.mini-meta {
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+	display: block;
+}
+
+.mini-meta a {
+	color: #777;
+	text-decoration: none;
+}
+
+/* Link Post Format Styles */
+article.post-link {
+	background-color: #E0EBFF;
+	padding: 0;
+}
+
+article.post-link a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.post-link-text {
+	line-height: 1.65em;
+	color: #004982;
+}
+
+/* Gallery Post Format Styles */
+article.post-gallery {
+	background-color: #222;
+	color: #FFF;
+	padding: 20px;
+	border-bottom: none;
+}
+
+article.post-gallery .gallery img {
+	border: none!important;
+}
+
+article.post-gallery .wp-caption-text {
+	font-size: 86%;
+}
+
+article.post-gallery h2 {
+	text-align: center;
+}
+
+article.post-gallery h2 a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 130%;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/* Two Column Title Layout */
+div.title-column {
+	width: 100%;
+	float: left;
+}
+
+div.text-column {
+	width: 100%;
+	
+}
+
+/* Info Box Styles */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
+}
+
+/* Children Links */
+.children-links {
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+.children-links ul {
+	float: left;
+}
+
+.children-links li {
+	margin-right: 20px;
+}
+
+.children-links .parent-link {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #DDD;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+	color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+	border-bottom: 1px solid #DDD;
+	color: #333;
+	cursor: default;
+}
+
+/* Post Styles */
+.post h2 {
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
+
+/* Image Styles */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.has-thumbnail {
+	
+	
+}
+
+.post-thumbnail {
+	text-align: center;
+    margin-top: 30px;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+/* PORTFOLIO */
+
+#portfolio_menu {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.port_next {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 468px) {
+    #portfolio_menu {
+       text-align: center;
+    justify-content: center;
+    width: 100%;
+        display: block;
+}
+    .port_next {
+    margin: 0;
+}
+    .port_link {
+        margin-top: 20px;
+    }
+}
+
+
+

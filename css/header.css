@@ -1,0 +1,104 @@
+/*Banner*/
+.wp-custom-header video {
+	height: auto;
+	width: 100%;
+}
+#wp-custom-header-video-button {
+    display: none;
+}
+
+video {
+ object-fit: cover;   
+}
+
+/* Standard Nav Menu */
+
+.menu-navigation-container {
+    position: sticky;
+    width: 80%;
+    
+}
+
+#menu-navigation {
+  display: inline-flex;
+  list-style: none;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.7;
+    height: 50px;
+    width: 50%;
+}
+
+
+#menu-navigation li {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: grey;
+    padding-top: 13px;
+}
+
+
+
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+      text-transform: uppercase;
+      font-size: 12px; 
+        text-decoration: none;
+        color: #888;
+}
+
+.site-nav ul li a:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 768px) { 
+
+.menu-navigation-container {
+    position: sticky;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+#menu-navigation {
+  display: inline-flex;
+  list-style: none;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.7;
+    height: 50px;
+    width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 468px) {
+    
+    .menu-navigation-container {
+    position: sticky;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+#menu-navigation {
+display: inline-flex;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.7;
+    height: 25px;
+    width: 90%;
+    padding-left: 30px;
+}
+    #menu-navigation li {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: grey;
+        padding-top: 5px;
+}
+    
+}

@@ -1,0 +1,149 @@
+.abouttextpage {
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.categories_about {
+  width: 100%;
+  height: 600px;
+  display: inline;
+  margin: 0 auto; }
+
+#boxes_about {
+  width: 45%;
+  height: 100%;
+  display: inline-block; }
+
+.container_about {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto; }
+
+.container_about:hover .overlay_about {
+  height: 100%; }
+
+.image_about {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.text_about {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay_about {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.9;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+#center_about {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .text_about {
+        font-size: 15px;
+    }
+    #center_about {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+    .abouttextpage {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}    
+    
+.container_about {
+    position: relative;
+    width: 98%;
+    height: 99%;
+    margin: 0 auto;
+}
+    
+    #boxes_about {
+  width: 45%;
+  height: 100%;
+  display: inline-block; }
+    
+    .categories_about {
+    padding-top: 25px;
+    width: 100%;
+    height: 305px;
+    display: inline;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+}
+    
+@media only screen and (max-width: 468px) {
+
+    #center_about {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+        .abouttextpage {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}    
+    
+.container_about {
+    position: relative;
+    width: 100%;
+    height: 78%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+    
+#boxes_about {
+  width: 100%;
+  height: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+    
+    .categories_about {
+    padding-top: 25px;
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+     justify-content: center;
+}
+    
+    .categories_about {
+    padding-top: 25px;
+    width: 100%;
+    height: 600px;
+    display: inline;
+    margin: 0 auto;
+        justify-content: center; }
+
+}
+    
+

@@ -1,0 +1,97 @@
+/* Post Columns */
+h1.recentlyblog {
+    margin-top: 55px;
+    padding-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.home-columns {
+	padding-top: 20px;
+}
+
+.home-columns h2 {
+	margin-bottom: .7em;
+}
+
+.home-columns .one-half {
+    width: 31%;
+    float: left;
+    margin-left: 2%;
+}
+
+.home-columns .last {
+	margin-right: 0;
+}
+
+.home-columns .post-item {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 1px;
+	margin-bottom: 16px;
+}
+
+.home-columns .square-thumbnail {
+	float: left;
+	margin-right: 20px;
+}
+
+.home-columns .post-item:last-of-type {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.home-columns h4 {
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+.home-columns h4 a {
+	text-decoration: none;
+}
+
+.home-columns h4 a:hover {
+	color: black;
+}
+
+.subtle-date {
+	margin-left: 5px;
+	font-weight: normal;
+	font-size: 80%;
+	color: grey;
+	padding: 3px 7px;
+}
+
+.home-columns p {
+	font-size: 83%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-a {
+    width: 60%;
+  height: 40px;
+  border-style: solid;
+  border-color: gray;
+  background-color: transparent;
+  color: gray;
+  font-weight: bold;
+   cursor: pointer;
+  z-index: 0;
+  transition: all 0.7s; 
+text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.horiz-center {
+	display: block;
+	text-align: center;
+    margin-top: 15px;
+}
+
+a:link {
+    color: gray;
+}
+

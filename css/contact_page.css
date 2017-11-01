@@ -1,0 +1,102 @@
+/*CONTACT PAGE */
+
+/* Main Column */
+#page_layout {
+	width: 65%;
+    display: inline-block;
+}
+
+.form {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin: 50px 0px 50px 0px; }
+
+.input {
+  margin: 10px;
+  width: 50%;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+  color: darkgrey; }
+
+.message {
+  margin: 10px;
+  width: 50%;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+  color: darkgrey;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none; }
+
+.submitbutton {
+  width: 30%;
+  background-color: #212020;
+  text-transform: uppercase;
+  color: white;
+  height: 40px;
+  border-style: hidden;
+  margin: 10px; }
+
+.details {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.follow {
+  text-align: center;
+  margin: 40px; }
+
+//*DETAILS*//
+
+
+
+.contact_details {
+    
+}
+
+.contact_details_text {
+    margin-bottom: 45px;
+    
+}
+
+@media only screen and (max-width: 468px) {
+    
+    .details {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+    
+    .form {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0; }
+
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .details {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+    
+    .form {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0; }
+
+    
+}
